@@ -1,0 +1,12 @@
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dll
+
+*.log
+*.tmp
+
+.projectile
