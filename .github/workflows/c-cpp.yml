@@ -20,8 +20,5 @@ jobs:
     - name: Build project
       run: make
 
-    - name: Run (optional)
-      run: ./tt || echo "Executable ran but may require input or fail gracefully"
-
     - name: Clean up
       run: make clean
