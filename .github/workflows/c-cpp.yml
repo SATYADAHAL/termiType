@@ -1,0 +1,27 @@
+name: C++ Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: sudo apt-get update && sudo apt-get install -y g++
+
+    - name: Build project
+      run: make
+
+    - name: Run (optional)
+      run: ./tt || echo "Executable ran but may require input or fail gracefully"
+
+    - name: Clean up
+      run: make clean
