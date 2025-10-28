@@ -1,7 +1,11 @@
 # termiType
 
 `termiType` is a terminal-based typing speed test built in C++. It displays a stream of words and tracks your typing accuracy, speed (WPM), and confidence — all within a classic ANSI-style terminal UI.
-![Screenshot_20250529_133826](https://github.com/user-attachments/assets/ff79f2c7-f0d7-4c49-86b7-b9caba98b159)
+
+# Demo
+![Demo Gif](./assets/demo-gif.gif)
+
+## ScreenShot
 ![Screenshot_20250529_133908](https://github.com/user-attachments/assets/fed375e8-f0ba-4514-92bf-0f681a0bb0f1)
 
 
